@@ -1,0 +1,40 @@
+div {
+  background-color: grey;
+  border: solid 1px black;
+}
+
+body main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  height: 100vh;
+}
+
+@media (min-width: 540px) {
+  div {
+    background-color: red;
+    border: solid 1px black;
+  }
+  
+  body main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  div {
+    background-color: green;
+    border: solid 1px black;
+  }
+  
+  body main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    height: 100vh;
+  }
+}
+
